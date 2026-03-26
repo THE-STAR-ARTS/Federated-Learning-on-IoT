@@ -1,0 +1,120 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Kanyasa"
+    given-names: "Craig"
+    email: craigkanyasa@gmail.com
+    affiliation: "THE STAR ARTS"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Get free ORCID ID
+title: "Federated Learning on ESP32 Microcontrollers via MQTT-to-gRPC Bridge"
+version: 1.0.0
+date-released: 2026-04-15
+url: "https://github.com/YourUsername/fl-esp32-bridge"
+repository-code: "https://github.com/THE-STAR-ARTS/Federated-Learning-on-IoT"
+keywords:
+  - federated-learning
+  - iot
+  - esp32
+  - mqtt
+  - edge-computing
+  - privacy-preserving-ml
+  - microcontrollers
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Kanyasa"
+      given-names: "Craig"
+  title: "Enabling Federated Learning on Resource-Constrained IoT Devices via MQTT-to-gRPC Protocol Translation"
+  year: 2026
+  journal: "arXiv preprint"
+  url: "https://arxiv.org/abs/2604.12345"
+```
+
+---
+
+### **3. .gitignore**
+
+Create `.gitignore`:
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+round_history.json
+global_metrics.json
+logs/
+
+# Arduino
+*.hex
+*.elf
+*.map
+
+# Temporary
+tmp/
+temp/
+```
+
+---
+
+### **4. requirements.txt**
+
+Access `requirements.txt` for requirement:
+```
+# Federated Learning
+flwr==1.5.0
+tensorflow==2.14.0
+numpy==1.24.3
+
+# MQTT Bridge
+paho-mqtt==1.6.1
+PyYAML==6.0
+
+# Dashboard (optional)
+luma.lcd==2.10.0
+Pillow==10.0.0
+
+# Utilities
+matplotlib==3.7.1
+pandas==2.0.3
