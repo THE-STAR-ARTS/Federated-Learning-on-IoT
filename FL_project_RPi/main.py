@@ -18,8 +18,8 @@ oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
 # =========================
 # CONFIG
 # =========================
-WIFI_SSID = "THE STAR ARTS"
-WIFI_PASS = "NISSANFRONTIER1"
+WIFI_SSID = "ENTER YOUR WIFI "
+WIFI_PASS = "ENTER THE PASSWORD "
 led = machine.Pin("LED", machine.Pin.OUT)
 BROKER = "192.168.241.142"  # RPi #2 server IP - change if needed
 TOPIC = "fl/pico/global"
