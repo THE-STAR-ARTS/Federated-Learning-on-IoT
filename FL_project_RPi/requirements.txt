@@ -1,0 +1,3 @@
+pip-requirements
+# No external dependencies required; uses Python standard library
+umqtt.simple
