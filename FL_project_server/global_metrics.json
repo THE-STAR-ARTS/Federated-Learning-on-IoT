@@ -1,0 +1,31 @@
+{
+  "round": 5,
+  "timestamp": 1771446847.5803614,
+  "rpi": {
+    "num_clients": 1,
+    "num_failures": 0,
+    "avg_loss": 1.0233761072158813,
+    "avg_loss_pct": 102.33761,
+    "avg_accuracy": 0.7649999856948853,
+    "avg_acc_pct": 76.5
+  },
+  "esp32": {
+    "num_devices": 2,
+    "avg_mse": 0.0163875,
+    "avg_rmse": 0.104935,
+    "avg_mae": 0.08599749999999999,
+    "avg_mse_pct": 1.63875,
+    "per_device": {
+      "esp32_01": {
+        "round": 0,
+        "loss_mse": 0.031775,
+        "loss_mae": 0.148026
+      },
+      "esp32_02": {
+        "round": 179,
+        "loss_mse": 0.001,
+        "loss_mae": 0.023969
+      }
+    }
+  }
+}

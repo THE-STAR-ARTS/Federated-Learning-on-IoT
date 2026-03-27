@@ -1,0 +1,9 @@
+{
+  "round": 1000,
+  "accuracy": 0.8199999928474426,
+  "loss": 0.35378021001815796,
+  "bytes_received": 800,
+  "bytes_sent": 800,
+  "alert": "None",
+  "server_ip": "10.199.136.142"
+}

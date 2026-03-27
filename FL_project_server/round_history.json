@@ -1,0 +1,157 @@
+[
+  {
+    "round": 1,
+    "timestamp": 1771446768.7532375,
+    "rpi": {
+      "num_clients": 1,
+      "num_failures": 0,
+      "avg_loss": 1.4608986377716064,
+      "avg_loss_pct": 146.08986,
+      "avg_accuracy": 0.7649999856948853,
+      "avg_acc_pct": 76.5,
+      "eval_loss": 1.3354239463806152,
+      "eval_loss_pct": 133.54239
+    },
+    "esp32": {
+      "num_devices": 1,
+      "avg_mse": 0.00083,
+      "avg_rmse": 0.028805,
+      "avg_mae": 0.022176,
+      "avg_mse_pct": 0.083,
+      "per_device": {
+        "esp32_02": {
+          "round": 175,
+          "loss_mse": 0.00083,
+          "loss_mae": 0.022176
+        }
+      }
+    }
+  },
+  {
+    "round": 2,
+    "timestamp": 1771446799.8109229,
+    "rpi": {
+      "num_clients": 1,
+      "num_failures": 0,
+      "avg_loss": 1.1552519798278809,
+      "avg_loss_pct": 115.5252,
+      "avg_accuracy": 0.7300000190734863,
+      "avg_acc_pct": 73.0,
+      "eval_loss": 1.0556174516677856,
+      "eval_loss_pct": 105.56175
+    },
+    "esp32": {
+      "num_devices": 1,
+      "avg_mse": 0.00079,
+      "avg_rmse": 0.028103,
+      "avg_mae": 0.021693,
+      "avg_mse_pct": 0.079,
+      "per_device": {
+        "esp32_02": {
+          "round": 176,
+          "loss_mse": 0.00079,
+          "loss_mae": 0.021693
+        }
+      }
+    }
+  },
+  {
+    "round": 3,
+    "timestamp": 1771446825.1164143,
+    "rpi": {
+      "num_clients": 1,
+      "num_failures": 0,
+      "avg_loss": 1.0171689987182617,
+      "avg_loss_pct": 101.7169,
+      "avg_accuracy": 0.7149999737739563,
+      "avg_acc_pct": 71.5,
+      "eval_loss": 0.754004955291748,
+      "eval_loss_pct": 75.4005
+    },
+    "esp32": {
+      "num_devices": 2,
+      "avg_mse": 0.0202085,
+      "avg_rmse": 0.11472349999999999,
+      "avg_mae": 0.08207500000000001,
+      "avg_mse_pct": 2.02085,
+      "per_device": {
+        "esp32_01": {
+          "round": 0,
+          "loss_mse": 0.03947,
+          "loss_mae": 0.140239
+        },
+        "esp32_02": {
+          "round": 177,
+          "loss_mse": 0.000947,
+          "loss_mae": 0.023911
+        }
+      }
+    }
+  },
+  {
+    "round": 4,
+    "timestamp": 1771446830.2602348,
+    "rpi": {
+      "num_clients": 1,
+      "num_failures": 0,
+      "avg_loss": 0.9425180554389954,
+      "avg_loss_pct": 94.25181,
+      "avg_accuracy": 0.7699999809265137,
+      "avg_acc_pct": 77.0,
+      "eval_loss": 0.9331803321838379,
+      "eval_loss_pct": 93.31803
+    },
+    "esp32": {
+      "num_devices": 2,
+      "avg_mse": 0.001642,
+      "avg_rmse": 0.03956,
+      "avg_mae": 0.0309175,
+      "avg_mse_pct": 0.1642,
+      "per_device": {
+        "esp32_01": {
+          "round": 1,
+          "loss_mse": 0.002337,
+          "loss_mae": 0.037924
+        },
+        "esp32_02": {
+          "round": 177,
+          "loss_mse": 0.000947,
+          "loss_mae": 0.023911
+        }
+      }
+    }
+  },
+  {
+    "round": 5,
+    "timestamp": 1771446847.5803614,
+    "rpi": {
+      "num_clients": 1,
+      "num_failures": 0,
+      "avg_loss": 1.0233761072158813,
+      "avg_loss_pct": 102.33761,
+      "avg_accuracy": 0.7649999856948853,
+      "avg_acc_pct": 76.5,
+      "eval_loss": 0.9702869653701782,
+      "eval_loss_pct": 97.0287
+    },
+    "esp32": {
+      "num_devices": 2,
+      "avg_mse": 0.0163875,
+      "avg_rmse": 0.104935,
+      "avg_mae": 0.08599749999999999,
+      "avg_mse_pct": 1.63875,
+      "per_device": {
+        "esp32_01": {
+          "round": 0,
+          "loss_mse": 0.031775,
+          "loss_mae": 0.148026
+        },
+        "esp32_02": {
+          "round": 179,
+          "loss_mse": 0.001,
+          "loss_mae": 0.023969
+        }
+      }
+    }
+  }
+]
